@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.shirt-text {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.char-title {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.shirt-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 25%; 
+    height: auto;
+}
+.reverse-image {
+    position: absolute;
+    top: 27%;
+    right: 30%;
+    transform: translateY(-50%); 
+    transform: scaleX(-1);
+    width: 10%;     
+}
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    border: 2px solid #0000001d;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #ccc;
+}
+.img:hover{
+    cursor: pointer;
+}
+body {
+    background-image: url('../img/fondo/fondo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
