@@ -6,11 +6,11 @@ function changeShirt() {
     let shirtText = document.querySelector('.shirt-text');
     let charTitle = document.querySelector('.char-title');
     if (radio){ // si el radio button esta seleccionado se pondra la camiseta negra
-        shirt.src = '/img/camiseta/black.png';
+        shirt.src = 'img/camiseta/black.png';
         shirtText.style.color = '#fff';
         charTitle.style.color = '#fff';
     } else {
-        shirt.src = '/img/camiseta/white.png';
+        shirt.src = 'img/camiseta/white.png';
         shirtText.style.color = '#000';
         charTitle.style.color = '#000';
     }
