@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 // cambiar la camiseta
 function changeShirt() {
     const shirt = document.getElementById('shirt');
@@ -90,3 +91,4 @@ imagenes.forEach(imagen => {
 
 
 
+});
